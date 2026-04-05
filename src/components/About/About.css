@@ -2,7 +2,7 @@
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
     padding: 40px;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
 }
 
 .about-header {
@@ -59,7 +59,7 @@
 }
 
 
-.tag a{
+.tag a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
@@ -162,7 +162,7 @@
     .about-title {
         font-size: 4rem;
     }
-    
+
     .name {
         font-size: 3rem;
     }
@@ -183,7 +183,7 @@
     }
 
     .about-hero {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 30px;
         align-items: center;
         text-align: center;
