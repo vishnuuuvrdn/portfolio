@@ -34,6 +34,7 @@
     transform: scale(1.7) translateX(10%) translateY(18%);
     filter: grayscale(100%) contrast(150%) brightness(10%);
     object-position: left top;
+    position: absolute;
 }
 
 .home-title {
@@ -103,7 +104,6 @@
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@
 }
 
 .arrow:hover {
-    transform: translateY(5px);
+    transform: translateY(8px);
 }
 
 @media (max-width: 768px) {

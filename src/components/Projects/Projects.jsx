@@ -38,8 +38,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-
-            {/* Title inside the card so it dims too */}
+            
             <div className="card-footer">
               <h3 className="project-name">{project.title}</h3>
             </div>

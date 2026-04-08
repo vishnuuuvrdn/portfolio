@@ -3,6 +3,7 @@ import myBigPic from "../../assets/me.jpeg";
 import myShortPic from "../../assets/me_mobile.jpeg";
 import "./About.css";
 import { FaLocationDot } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom';
 
 const educationData = [
   {
@@ -25,6 +26,7 @@ const educationData = [
 
 export default function About() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const navigate = useNavigate();
 
 
   useEffect(() => {
@@ -33,6 +35,7 @@ export default function About() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
 
   return (
     <div className="about-container">
@@ -90,7 +93,7 @@ export default function About() {
               ))}
             </div>
 
-            <button className="cv-button" >
+            <button className="cv-button" onClick={() => navigate("/Resume")}>
               View my Resume<span>↗</span>
             </button>
           </section>
