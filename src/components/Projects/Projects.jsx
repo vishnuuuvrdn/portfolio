@@ -1,14 +1,22 @@
 import "./Projects.css";
 import cinescopeImg from "../../assets/CineScope/img.png";
+import TranslatorImg from '../../assets/TranslatorIMG.png'
 
 const projectData = [
   {
     id: 1,
-    title: "CineScope Movie App",
+    title: "CineScope",
     image: cinescopeImg,
     github: "https://github.com/vishnuuuvrdn/MovieApp",
     preview: "#",
-  }
+  },
+  {
+    id: 2,
+    title: "Telugu Translator Chrome Extension",
+    image: TranslatorImg,
+    github: "https://github.com/vishnuuuvrdn/Telugu-Translator-Extension",
+    preview: "#"
+  },
 ];
 
 export default function Projects() {
