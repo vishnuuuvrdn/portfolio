@@ -1,6 +1,6 @@
 import "./Projects.css";
 import cinescopeImg from "../../assets/CineScope/img.png";
-import TranslatorImg from '../../assets/TranslatorIMG.png'
+import TranslatorImg from "../../assets/TranslatorIMG.png";
 
 const projectData = [
   {
@@ -8,14 +8,14 @@ const projectData = [
     title: "CineScope",
     image: cinescopeImg,
     github: "https://github.com/vishnuuuvrdn/MovieApp",
-    preview: "#",
+    preview: "https://cinescope9.netlify.app",
   },
   {
     id: 2,
     title: "Telugu Translator Chrome Extension",
     image: TranslatorImg,
     github: "https://github.com/vishnuuuvrdn/Telugu-Translator-Extension",
-    preview: "#"
+    preview: "#",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            
+
             <div className="card-footer">
               <h3 className="project-name">{project.title}</h3>
             </div>
